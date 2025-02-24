@@ -1,0 +1,138 @@
+h1 {
+  color: #34495e;
+  margin-bottom: 15px;
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+p {
+  color: #555;
+  font-size: 1.1em;
+}
+
+.top-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.camera-feed {
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.chat-container {
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+}
+
+.message-list {
+  height: 380px;
+  overflow-y: auto;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  scrollbar-width: thin;
+  scrollbar-color: #a0aec0 #edf2f7;
+}
+
+.message-list::-webkit-scrollbar {
+  width: 7px;
+}
+
+.message-list::-webkit-scrollbar-track {
+  background: #edf2f7;
+  border-radius: 6px;
+}
+
+.message-list::-webkit-scrollbar-thumb {
+  background-color: #a0aec0;
+  border-radius: 6px;
+}
+
+.message {
+  padding: 15px 24px;
+  margin-bottom: 14px;
+  border-radius: 30px;
+  display: inline-block;
+  clear: both;
+  font-size: 1.08em;
+}
+
+.message.user {
+  background-color: #dcfce7;
+  color: #166534;
+  float: right;
+}
+
+.message.ai {
+  background-color: #f1f5f9;
+  color: #1e293b;
+  float: left;
+}
+
+.input-area {
+  display: flex;
+  padding: 22px;
+  border-top: 1px solid #e2e8f0;
+  background-color: #f7fafc;
+  border-radius: 0 0 20px 20px;
+}
+
+.input-area input {
+  flex-grow: 1;
+  padding: 15px;
+  border: 1px solid #cbd5e0;
+  border-radius: 12px;
+  margin-right: 22px;
+  font-size: 1.08em;
+  color: #34495e;
+}
+
+.input-area input:focus {
+  outline: none;
+  border-color: #90cdf4;
+  box-shadow: 0 0 0 3px rgba(144, 205, 244, 0.3);
+}
+
+.input-area button {
+  padding: 15px 26px;
+  background-color: #548ca8;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1.08em;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+}
+
+.input-area button:hover {
+  background-color: #436983;
+}
+
+.voice-button {
+    padding: 15px 26px;
+    background-color: #808e9b;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.08em;
+    transition: background-color 0.3s ease;
+    margin-left: 18px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+}
+
+.voice-button:hover {
+    background-color: #6b7a88;
+}

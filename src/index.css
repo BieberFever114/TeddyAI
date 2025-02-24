@@ -1,0 +1,21 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f2f5;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.09);
+  padding: 35px;
+  width: 90%;
+  max-width: 950px;
+}
